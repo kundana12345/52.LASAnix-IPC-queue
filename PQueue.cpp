@@ -35,7 +35,7 @@ void PQueue::push(void *item, int priority)
 	tmp->priority = priority;
 	tmp->link = NULL;
 	
-	if (front = NULL){
+	if (front == NULL){
 	    front = tmp;
 	}
 	
